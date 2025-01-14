@@ -1,3 +1,4 @@
+/* common  */
 :root {
     /* body palette  */
     --tobo-lighter: white;
@@ -12,6 +13,7 @@
     --tobo-label6: #b0c926;
     --tobo-cross: #f29f9c;
     --tobo-checkmark: #6ac3ad;
+    --tobo-btn: #d0d5d9;
 }
 
 * {
@@ -26,18 +28,27 @@ body{
     background-color: var(--tobo-light);
 }
 
+
+/* header  */
 #site_header{
     padding: 1rem;
     background-color: var(--tobo-lighter);
     margin-bottom: 4rem;
 }
 
-h1 {
+h1{
     display: inline-block;
+    vertical-align: top;
     font-weight: 700;
     font-size: 3rem;
 }
 
+#logo{
+    height: 50px;
+}
+
+
+/* main  */
 #site_main{
     background-color: var(--tobo-lighter);
     width: 60%;
@@ -49,20 +60,117 @@ h1 {
     border-bottom-right-radius: 10px;
 }
 
+
+/* toolbar  */
 .menu{
     padding: 1rem 5rem;
 }
 
+
+/* task lists  */
 #todo_list{
     border-top: 4px solid var(--tobo-light);
     padding: 3rem 5rem;
 }
 
 li{
-    margin-top: 10px;
+    margin-top: 20px;
+}
+
+.task_cathegory{
+    font-weight: 800;
+    font-size: 1.5rem;
+    list-style: none;
 }
 
 .task_list{
     margin-left: 20px;
     margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+    list-style-type: none;
+}
+
+
+/* button style  */
+.task_btn{
+    padding: 10px;
+    background-color: var(--tobo-dark);
+    color: var(--tobo-lighter);
+    border-radius: 10px;
+    border-style: none;
+    font-weight: 500;
+}
+
+.section_btn{
+    padding: 10px;
+    background-color: var(--tobo-lighter);
+    color: var(--tobo-btn);
+    border: 1px solid var(--tobo-btn);
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.list_btn{
+    background-color: transparent;
+    border-style: none;
+}
+
+.item_btn_check{
+    background-color: transparent;
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+    border-radius: 50%;
+    text-align: center;
+    color: var(--tobo-checkmark);
+    border-color: var(--tobo-checkmark);
+    margin-right: 10px;
+}
+
+.item_btn_cross{
+    background-color: transparent;
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+    border-radius: 50%;
+    text-align: center;
+    color: var(--tobo-cross);
+    border-color: var(--tobo-cross);
+    margin-right: 10px;
+}
+
+
+/* label style  */
+.label{
+    padding: 5px;
+    color: var(--tobo-lighter);
+    border-radius: 10px;
+    border-style: none;
+    font-size: 0.6rem;
+    margin-left: 10px;
+}
+
+.label_1{
+    background-color: var(--tobo-label1);
+}
+
+.label_2{
+    background-color: var(--tobo-label2);
+}
+
+.label_3{
+    background-color: var(--tobo-label3);
+}
+
+.label_4{
+    background-color: var(--tobo-label4);
+}
+
+.label_5{
+    background-color: var(--tobo-label5);
+}
+
+.label_6{
+    background-color: var(--tobo-label6);
 }
