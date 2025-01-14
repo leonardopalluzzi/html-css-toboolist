@@ -57,3 +57,12 @@ h1 {
     border-top: 4px solid var(--tobo-light);
     padding: 3rem 5rem;
 }
+
+li{
+    margin-top: 10px;
+}
+
+.task_list{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
