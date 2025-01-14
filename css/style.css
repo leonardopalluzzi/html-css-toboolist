@@ -117,10 +117,11 @@ li{
 }
 
 .item_btn_check{
-    background-color: transparent;
+    display: inline-block;
     height: 20px;
     width: 20px;
-    border-style: solid;
+    line-height: 20px;
+    border: 2px solid;
     border-radius: 50%;
     text-align: center;
     color: var(--tobo-checkmark);
@@ -129,10 +130,11 @@ li{
 }
 
 .item_btn_cross{
-    background-color: transparent;
+    display: inline-block;
     height: 20px;
     width: 20px;
-    border-style: solid;
+    line-height: 20px;
+    border: 2px solid;
     border-radius: 50%;
     text-align: center;
     color: var(--tobo-cross);
