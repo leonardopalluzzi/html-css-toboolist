@@ -1,3 +1,18 @@
+:root{
+    /* body palette  */
+    --tobo-light: #f6f8f9;
+    --tobo-dark: #47adf1;
+    /* label palette  */
+    --tobo-label1: #45abe9;
+    --tobo-label2: #9c72e4;
+    --tobo-label3: #64c0a9;
+    --tobo-label4: #f29e33;
+    --tobo-label5: #d863a0;
+    --tobo-label6: #b0c926;
+    --tobo-cross: #f29f9c;
+    --tobo-checkmark: #6ac3ad;
+}
+
 *{
     margin: 0;
     padding: 0;
