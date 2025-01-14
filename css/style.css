@@ -1,5 +1,6 @@
-:root{
+:root {
     /* body palette  */
+    --tobo-lighter: white;
     --tobo-light: #f6f8f9;
     --tobo-dark: #47adf1;
     /* label palette  */
@@ -13,8 +14,36 @@
     --tobo-checkmark: #6ac3ad;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+}
+
+body{
+    background-color: var(--tobo-light);
+}
+
+#site_header{
+    padding: 1rem;
+    background-color: var(--tobo-lighter);
+    margin-bottom: 4rem;
+}
+
+h1 {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+#site_main{
+    background-color: var(--tobo-lighter);
+    width: 60%;
+    margin: auto;
+}
+
+.menu{
+    padding: 1rem 5rem;
 }
